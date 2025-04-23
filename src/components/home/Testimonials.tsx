@@ -41,10 +41,10 @@ const Testimonials = () => {
                 ))}
               </div>
               <p className="mb-6 italic">"{testimonial.content}"</p>
-              <div>
+              {/* <div>
                 <p className="font-semibold">{testimonial.author}</p>
                 <p className="text-logistics-300">{testimonial.company}</p>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

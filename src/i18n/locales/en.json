@@ -1,0 +1,280 @@
+{
+  "common": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "blog": "Blog",
+    "getQuote": "Get a Quote"
+  },
+  "components": {
+    "navbar": {
+      "brandName": "HienLogistics"
+    },
+    "footer": {
+      "companyDescription": "Professional logistics services with 3 years of experience in international freight shipping.",
+      "quickLinks": "Quick Links",
+      "ourServices": "Our Services",
+      "contactUs": "Contact Us",
+      "services": {
+        "internationalSea": "International Sea Freight",
+        "domesticSea": "Domestic Sea Freight",
+        "airFreight": "Air Freight",
+        "warehousing": "Warehousing",
+        "internationalShipping": "International Shipping"
+      },
+      "copyright": "© {{year}} HienLogistics. All Rights Reserved."
+    },
+    "contactCTA": {
+      "title": "Ready to Optimize Your Shipping Process?",
+      "description": "Contact us today to discuss how our logistics services can help your business save costs and enhance operational efficiency.",
+      "contactButton": "Contact Us Now",
+      "exploreButton": "Explore Our Services"
+    }
+  },
+  "hero": {
+    "title": "GO LOGISTICS WITH RUBY",
+    "description": "Expert logistics services with 3 years of experience in international freight shipping, helping customers optimize costs and enhance operational efficiency.",
+    "exploreServices": "Explore Services",
+    "contactUs": "Contact Us",
+    "social": {
+      "tiktok": {
+        "title": "TikTok",
+        "handle": "@rubylogistics"
+      },
+      "zalo": {
+        "title": "Zalo",
+        "phone": "0358 820 162"
+      }
+    }
+  },
+  "about": {
+    "header": {
+      "title": "About Nguyễn Thị Thu Hiền",
+      "subtitle": "Dedicated logistics professional with expertise in sea freight, air freight, and cost optimization"
+    },
+    "profile": {
+      "title": "Professional Profile",
+      "description": "With 3 years of experience in international logistics, I specialize in sea freight, air freight, and cost optimization solutions. My goal is to help customers save costs and enhance their operational efficiency through tailored logistics services.",
+      "experienceTitle": "Experience & Expertise",
+      "experiences": [
+        "3 years of experience in international logistics",
+        "Sea freight specialist with expertise in cost optimization",
+        "Air freight coordination for time-sensitive deliveries",
+        "Supply chain management and problem solving",
+        "Client relationship management and custom solutions"
+      ],
+      "connectTitle": "Connect With Me"
+    },
+    "philosophy": {
+      "title": "Professional Philosophy",
+      "intro": "My approach to logistics is centered around creating value for clients through:",
+      "points": [
+        {
+          "title": "Cost Optimization",
+          "description": "Identifying the most cost-effective shipping solutions without compromising on quality or speed."
+        },
+        {
+          "title": "Operational Efficiency",
+          "description": "Streamlining logistics processes to reduce delays and improve supply chain performance."
+        },
+        {
+          "title": "Customer-Centric Solutions",
+          "description": "Tailoring logistics services to meet the specific needs and challenges of each client."
+        },
+        {
+          "title": "Continuous Improvement",
+          "description": "Constantly seeking ways to improve service quality and adapt to changing market conditions."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch to discuss how we can optimize your logistics operations"
+    },
+    "getInTouch": {
+      "title": "Get In Touch",
+      "description": "Have questions about our logistics services? Contact us directly or fill out the form and we'll get back to you promptly.",
+      "info": {
+        "phone": {
+          "title": "Phone",
+          "value": "0358 820 162"
+        },
+        "email": {
+          "title": "Email",
+          "value": "rubykim10092002@gmail.com"
+        },
+        "address": {
+          "title": "Office Address",
+          "value": "43D6 Hồ Văn Huê, Phường 09, Phú Nhuận, Ho Chi Minh City"
+        },
+        "tiktok": {
+          "title": "TikTok",
+          "handle": "@rubylogistics"
+        },
+        "zalo": {
+          "title": "Zalo",
+          "value": "0358 820 162"
+        }
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "success": "Your message has been sent successfully. We'll get back to you soon!",
+      "fields": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Your name"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "your.email@example.com"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Your phone number"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "How can we help you?"
+        }
+      },
+      "submit": {
+        "sending": "Sending...",
+        "send": "Send Message"
+      }
+    }
+  },
+  "services": {
+    "header": {
+      "title": "Our Logistics Services",
+      "subtitle": "Comprehensive logistics solutions tailored to your specific needs"
+    },
+    "items": [
+      {
+        "id": "international-sea",
+        "title": "International Sea Freight",
+        "description": "Our international sea freight service connects businesses to over 100 countries and 500 major ports worldwide. With our extensive network and expertise, we help customers save up to 20% on shipping costs while ensuring timely deliveries.",
+        "features": [
+          "Shipping to over 100 countries worldwide",
+          "Access to 500+ major ports",
+          "Cost savings of up to 20%",
+          "Fast shipping times (5-10 days)",
+          "Real-time shipment tracking",
+          "Comprehensive insurance options"
+        ]
+      },
+      {
+        "id": "domestic-sea",
+        "title": "Domestic Sea Freight",
+        "description": "Our domestic sea freight service provides efficient shipping between major ports in Vietnam, including Ho Chi Minh City, Hai Phong, and Da Nang. We optimize shipping costs and delivery time to enhance your domestic supply chain.",
+        "features": [
+          "Shipping between all major Vietnamese ports",
+          "Optimized cost and delivery time",
+          "Frequent departure schedules",
+          "Door-to-door service available",
+          "Specialized handling for various cargo types",
+          "Reliable delivery tracking"
+        ]
+      },
+      {
+        "id": "air-freight",
+        "title": "Air Freight",
+        "description": "Our air freight service offers rapid delivery of goods within 24-48 hours, working with trusted international airlines. This service is ideal for time-sensitive shipments, high-value goods, and urgent deliveries.",
+        "features": [
+          "Delivery within 24-48 hours",
+          "Partnerships with major airlines",
+          "Global coverage to major airports",
+          "Priority handling options",
+          "Suitable for urgent and high-value shipments",
+          "Comprehensive insurance coverage"
+        ]
+      },
+      {
+        "id": "warehousing",
+        "title": "Warehousing and Inventory Management",
+        "description": "Our warehousing service provides 10,000m² of strategically located storage space, offering packing, sorting, and fast delivery services. We help businesses optimize their inventory management and distribution processes.",
+        "features": [
+          "10,000m² warehouse space",
+          "Strategic locations for efficient distribution",
+          "Packing and sorting services",
+          "Inventory management systems",
+          "Temperature-controlled storage options",
+          "24/7 security and surveillance"
+        ]
+      },
+      {
+        "id": "international-shipping",
+        "title": "International Shipping",
+        "description": "Our international shipping service offers global coverage, optimizing costs and delivery times for import/export customers. We handle all aspects of international logistics, including customs clearance and documentation.",
+        "features": [
+          "Comprehensive global shipping solutions",
+          "Cost and delivery time optimization",
+          "Customs clearance assistance",
+          "Documentation preparation",
+          "Regulatory compliance support",
+          "Personalized service from start to finish"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ready to Optimize Your Logistics?",
+      "description": "Contact us today to discuss how our logistics services can help your business save costs and enhance operational efficiency.",
+      "button": "Contact Us Now"
+    },
+    "requestQuote": "Request a Quote"
+  },
+  "reviews": {
+    "header": {
+      "title": "Customer Reviews",
+      "subtitle": "See what our clients say about our logistics services"
+    },
+    "testimonials": [
+      {
+        "content": "We are very satisfied with the international shipping service, with costs reduced by 15-20% and on-time deliveries, ensuring stable supply chains.",
+        "author": "Director",
+        "company": "ABC Import-Export Company",
+        "rating": 5
+      },
+      {
+        "content": "Sea freight service has reduced our shipping time from 3 days to 1-2 days, improving operational efficiency and flexibility.",
+        "author": "Operations Manager",
+        "company": "DEF Transport Company",
+        "rating": 5
+      },
+      {
+        "content": "Air freight service ensured delivery within 48 hours, optimized customs procedures, and boosted our revenue by 25% during peak season.",
+        "author": "Business Director",
+        "company": "GHI Trading Company",
+        "rating": 5
+      },
+      {
+        "content": "Working with Nguyễn Thị Thu Hiền has transformed our logistics process. Her attention to detail and cost-saving strategies have been invaluable for our growing business.",
+        "author": "Logistics Manager",
+        "company": "JKL Manufacturing",
+        "rating": 5
+      },
+      {
+        "content": "The warehousing service has saved us considerable space and improved our inventory management. The team's efficiency in handling our products has been exceptional.",
+        "author": "Supply Chain Director",
+        "company": "MNO Retail Group",
+        "rating": 4
+      },
+      {
+        "content": "Her expertise in international shipping regulations saved us from potential compliance issues and ensured smooth customs clearance for all our shipments.",
+        "author": "Import Manager",
+        "company": "PQR International Trade",
+        "rating": 5
+      }
+    ],
+    "cta": {
+      "title": "Join Our Satisfied Clients",
+      "description": "Experience the difference our logistics services can make for your business. Contact us today for a consultation.",
+      "contactButton": "Contact Us",
+      "exploreButton": "Explore Our Services"
+    }
+  }
+}

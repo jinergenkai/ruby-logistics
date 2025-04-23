@@ -1,52 +1,15 @@
-
 import Layout from '../components/layout/Layout';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Reviews = () => {
-  const testimonials = [
-    {
-      content: "We are very satisfied with the international shipping service, with costs reduced by 15-20% and on-time deliveries, ensuring stable supply chains.",
-      author: "Director",
-      company: "ABC Import-Export Company",
-      rating: 5,
-      image: "https://randomuser.me/api/portraits/men/1.jpg"
-    },
-    {
-      content: "Sea freight service has reduced our shipping time from 3 days to 1-2 days, improving operational efficiency and flexibility.",
-      author: "Operations Manager",
-      company: "DEF Transport Company",
-      rating: 5,
-      image: "https://randomuser.me/api/portraits/women/2.jpg"
-    },
-    {
-      content: "Air freight service ensured delivery within 48 hours, optimized customs procedures, and boosted our revenue by 25% during peak season.",
-      author: "Business Director",
-      company: "GHI Trading Company",
-      rating: 5,
-      image: "https://randomuser.me/api/portraits/men/3.jpg"
-    },
-    {
-      content: "Working with Nguyễn Thị Thu Hiền has transformed our logistics process. Her attention to detail and cost-saving strategies have been invaluable for our growing business.",
-      author: "Logistics Manager",
-      company: "JKL Manufacturing",
-      rating: 5,
-      image: "https://randomuser.me/api/portraits/women/4.jpg"
-    },
-    {
-      content: "The warehousing service has saved us considerable space and improved our inventory management. The team's efficiency in handling our products has been exceptional.",
-      author: "Supply Chain Director",
-      company: "MNO Retail Group",
-      rating: 4,
-      image: "https://randomuser.me/api/portraits/men/5.jpg"
-    },
-    {
-      content: "Her expertise in international shipping regulations saved us from potential compliance issues and ensured smooth customs clearance for all our shipments.",
-      author: "Import Manager",
-      company: "PQR International Trade",
-      rating: 5,
-      image: "https://randomuser.me/api/portraits/women/6.jpg"
-    }
-  ];
+  const { t } = useTranslation();
+  const testimonials = t('reviews.testimonials', { returnObjects: true }) as Array<{
+    content: string;
+    author: string;
+    company: string;
+    rating: number;
+  }>;
 
   return (
     <Layout>
@@ -54,9 +17,9 @@ const Reviews = () => {
       <section className="bg-logistics-600 text-white py-16">
         <div className="container-custom">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4">Customer Reviews</h1>
+            <h1 className="text-4xl font-bold mb-4">{t('reviews.header.title')}</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              See what our clients say about our logistics services
+              {t('reviews.header.subtitle')}
             </p>
           </div>
         </div>
@@ -79,13 +42,12 @@ const Reviews = () => {
                 <p className="mb-6 text-gray-600 italic">"{testimonial.content}"</p>
                 <div className="flex items-center">
                   <img 
-                    src={testimonial.image} 
+                    src={`https://randomuser.me/api/portraits/${index % 2 === 0 ? 'men' : 'women'}/${index + 1}.jpg`}
                     alt={testimonial.author}
                     className="w-12 h-12 rounded-full mr-4" 
                   />
                   <div>
                     <p className="font-semibold">{testimonial.author}</p>
-                    <p className="text-gray-500 text-sm">{testimonial.company}</p>
                   </div>
                 </div>
               </div>
@@ -97,16 +59,16 @@ const Reviews = () => {
       {/* CTA Section */}
       <section className="bg-gray-50 py-16">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold mb-4">Join Our Satisfied Clients</h2>
+          <h2 className="text-3xl font-bold mb-4">{t('reviews.cta.title')}</h2>
           <p className="text-gray-600 mb-8 max-w-3xl mx-auto">
-            Experience the difference our logistics services can make for your business. Contact us today for a consultation.
+            {t('reviews.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link to="/contact" className="btn-primary">
-              Contact Us
+              {t('reviews.cta.contactButton')}
             </Link>
             <Link to="/services" className="btn-secondary">
-              Explore Our Services
+              {t('reviews.cta.exploreButton')}
             </Link>
           </div>
         </div>

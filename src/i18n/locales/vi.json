@@ -1,0 +1,280 @@
+{
+  "common": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "services": "Dịch vụ",
+    "reviews": "Đánh giá",
+    "contact": "Liên hệ",
+    "blog": "Blog",
+    "getQuote": "Yêu Cầu Báo Giá"
+  },
+  "components": {
+    "navbar": {
+      "brandName": "HienLogistics"
+    },
+    "footer": {
+      "companyDescription": "Dịch vụ logistics chuyên nghiệp với 3 năm kinh nghiệm vận chuyển hàng quốc tế.",
+      "quickLinks": "Liên Kết Nhanh",
+      "ourServices": "Dịch Vụ Của Chúng Tôi",
+      "contactUs": "Liên Hệ Với Chúng Tôi",
+      "services": {
+        "internationalSea": "Vận Tải Biển Quốc Tế",
+        "domesticSea": "Vận Tải Biển Nội Địa",
+        "airFreight": "Vận Tải Hàng Không",
+        "warehousing": "Kho Bãi",
+        "internationalShipping": "Vận Chuyển Quốc Tế"
+      },
+      "copyright": "© {{year}} HienLogistics. Bảo Lưu Mọi Quyền."
+    },
+    "contactCTA": {
+      "title": "Sẵn Sàng Tối Ưu Hóa Quy Trình Vận Chuyển?",
+      "description": "Liên hệ ngay hôm nay để thảo luận về cách dịch vụ logistics của chúng tôi có thể giúp doanh nghiệp của bạn tiết kiệm chi phí và nâng cao hiệu quả hoạt động.",
+      "contactButton": "Liên Hệ Ngay",
+      "exploreButton": "Khám Phá Dịch Vụ"
+    }
+  },
+  "hero": {
+    "title": "LOGISTICS CÙNG RUBY",
+    "description": "Dịch vụ logistics chuyên nghiệp với 3 năm kinh nghiệm vận chuyển hàng quốc tế, giúp khách hàng tối ưu chi phí và nâng cao hiệu quả hoạt động.",
+    "exploreServices": "Khám phá dịch vụ",
+    "contactUs": "Liên hệ",
+    "social": {
+      "tiktok": {
+        "title": "TikTok",
+        "handle": "@rubylogistics"
+      },
+      "zalo": {
+        "title": "Zalo",
+        "phone": "0358 820 162"
+      }
+    }
+  },
+  "about": {
+    "header": {
+      "title": "Về Nguyễn Thị Thu Hiền",
+      "subtitle": "Chuyên gia logistics với chuyên môn về vận tải biển, vận tải hàng không và tối ưu hóa chi phí"
+    },
+    "profile": {
+      "title": "Hồ Sơ Chuyên Môn",
+      "description": "Với 3 năm kinh nghiệm trong lĩnh vực logistics quốc tế, tôi chuyên về vận tải biển, vận tải hàng không và giải pháp tối ưu hóa chi phí. Mục tiêu của tôi là giúp khách hàng tiết kiệm chi phí và nâng cao hiệu quả hoạt động thông qua các dịch vụ logistics được thiết kế riêng.",
+      "experienceTitle": "Kinh Nghiệm & Chuyên Môn",
+      "experiences": [
+        "3 năm kinh nghiệm trong lĩnh vực logistics quốc tế",
+        "Chuyên gia vận tải biển với chuyên môn về tối ưu hóa chi phí",
+        "Điều phối vận tải hàng không cho các lô hàng cần giao gấp",
+        "Quản lý chuỗi cung ứng và giải quyết vấn đề",
+        "Quản lý quan hệ khách hàng và giải pháp tùy chỉnh"
+      ],
+      "connectTitle": "Kết Nối Với Tôi"
+    },
+    "philosophy": {
+      "title": "Triết Lý Nghề Nghiệp",
+      "intro": "Cách tiếp cận của tôi về logistics tập trung vào việc tạo giá trị cho khách hàng thông qua:",
+      "points": [
+        {
+          "title": "Tối Ưu Hóa Chi Phí",
+          "description": "Xác định giải pháp vận chuyển tiết kiệm chi phí nhất mà không ảnh hưởng đến chất lượng hoặc tốc độ."
+        },
+        {
+          "title": "Hiệu Quả Hoạt Động",
+          "description": "Tối ưu hóa quy trình logistics để giảm thiểu chậm trễ và cải thiện hiệu suất chuỗi cung ứng."
+        },
+        {
+          "title": "Giải Pháp Tập Trung Vào Khách Hàng",
+          "description": "Điều chỉnh dịch vụ logistics để đáp ứng nhu cầu và thách thức cụ thể của từng khách hàng."
+        },
+        {
+          "title": "Cải Tiến Liên Tục",
+          "description": "Liên tục tìm kiếm cách cải thiện chất lượng dịch vụ và thích ứng với điều kiện thị trường thay đổi."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Liên Hệ Với Chúng Tôi",
+      "subtitle": "Liên hệ để thảo luận về cách chúng tôi có thể tối ưu hóa hoạt động logistics của bạn"
+    },
+    "getInTouch": {
+      "title": "Liên Hệ Ngay",
+      "description": "Bạn có thắc mắc về dịch vụ logistics? Liên hệ trực tiếp hoặc điền vào biểu mẫu và chúng tôi sẽ phản hồi nhanh chóng.",
+      "info": {
+        "phone": {
+          "title": "Điện thoại",
+          "value": "0358 820 162"
+        },
+        "email": {
+          "title": "Email",
+          "value": "rubykim10092002@gmail.com"
+        },
+        "address": {
+          "title": "Địa Chỉ Văn Phòng",
+          "value": "43D6 Hồ Văn Huê, Phường 09, Phú Nhuận, TP. Hồ Chí Minh"
+        },
+        "tiktok": {
+          "title": "TikTok",
+          "handle": "@rubylogistics"
+        },
+        "zalo": {
+          "title": "Zalo",
+          "value": "0358 820 162"
+        }
+      }
+    },
+    "form": {
+      "title": "Gửi Tin Nhắn Cho Chúng Tôi",
+      "success": "Tin nhắn của bạn đã được gửi thành công. Chúng tôi sẽ phản hồi sớm!",
+      "fields": {
+        "name": {
+          "label": "Họ và Tên",
+          "placeholder": "Nhập họ tên của bạn"
+        },
+        "email": {
+          "label": "Địa Chỉ Email",
+          "placeholder": "email@example.com"
+        },
+        "phone": {
+          "label": "Số Điện Thoại",
+          "placeholder": "Nhập số điện thoại của bạn"
+        },
+        "message": {
+          "label": "Tin Nhắn",
+          "placeholder": "Chúng tôi có thể giúp gì cho bạn?"
+        }
+      },
+      "submit": {
+        "sending": "Đang gửi...",
+        "send": "Gửi Tin Nhắn"
+      }
+    }
+  },
+  "services": {
+    "header": {
+      "title": "Các Dịch Vụ Logistics",
+      "subtitle": "Giải pháp logistics toàn diện được thiết kế riêng theo nhu cầu của bạn"
+    },
+    "items": [
+      {
+        "id": "international-sea",
+        "title": "Vận Tải Biển Quốc Tế",
+        "description": "Dịch vụ vận tải biển quốc tế của chúng tôi kết nối doanh nghiệp với hơn 100 quốc gia và 500 cảng lớn trên toàn thế giới. Với mạng lưới rộng khắp và chuyên môn của chúng tôi, chúng tôi giúp khách hàng tiết kiệm đến 20% chi phí vận chuyển trong khi đảm bảo giao hàng đúng hạn.",
+        "features": [
+          "Vận chuyển đến hơn 100 quốc gia",
+          "Kết nối với 500+ cảng lớn",
+          "Tiết kiệm chi phí lên đến 20%",
+          "Thời gian vận chuyển nhanh (5-10 ngày)",
+          "Theo dõi lô hàng thời gian thực",
+          "Các lựa chọn bảo hiểm toàn diện"
+        ]
+      },
+      {
+        "id": "domestic-sea",
+        "title": "Vận Tải Biển Nội Địa",
+        "description": "Dịch vụ vận tải biển nội địa của chúng tôi cung cấp vận chuyển hiệu quả giữa các cảng lớn tại Việt Nam, bao gồm TP. Hồ Chí Minh, Hải Phòng và Đà Nẵng. Chúng tôi tối ưu hóa chi phí vận chuyển và thời gian giao hàng để nâng cao chuỗi cung ứng nội địa của bạn.",
+        "features": [
+          "Vận chuyển giữa các cảng lớn tại Việt Nam",
+          "Tối ưu hóa chi phí và thời gian giao hàng",
+          "Lịch khởi hành thường xuyên",
+          "Dịch vụ door-to-door",
+          "Xử lý chuyên biệt cho các loại hàng hóa",
+          "Theo dõi giao hàng đáng tin cậy"
+        ]
+      },
+      {
+        "id": "air-freight",
+        "title": "Vận Tải Hàng Không",
+        "description": "Dịch vụ vận tải hàng không của chúng tôi cung cấp giao hàng nhanh trong vòng 24-48 giờ, hợp tác với các hãng hàng không quốc tế uy tín. Dịch vụ này lý tưởng cho các lô hàng cần giao gấp, hàng hóa giá trị cao và giao hàng khẩn cấp.",
+        "features": [
+          "Giao hàng trong vòng 24-48 giờ",
+          "Hợp tác với các hãng hàng không lớn",
+          "Phủ sóng toàn cầu đến các sân bay chính",
+          "Tùy chọn xử lý ưu tiên",
+          "Phù hợp cho hàng khẩn và giá trị cao",
+          "Bảo hiểm toàn diện"
+        ]
+      },
+      {
+        "id": "warehousing",
+        "title": "Kho Bãi và Quản Lý Hàng Tồn Kho",
+        "description": "Dịch vụ kho bãi của chúng tôi cung cấp 10.000m² không gian lưu trữ được đặt tại vị trí chiến lược, cung cấp dịch vụ đóng gói, phân loại và giao hàng nhanh. Chúng tôi giúp doanh nghiệp tối ưu hóa quy trình quản lý hàng tồn kho và phân phối.",
+        "features": [
+          "Diện tích kho 10.000m²",
+          "Vị trí chiến lược để phân phối hiệu quả",
+          "Dịch vụ đóng gói và phân loại",
+          "Hệ thống quản lý hàng tồn kho",
+          "Tùy chọn kho lạnh",
+          "An ninh và giám sát 24/7"
+        ]
+      },
+      {
+        "id": "international-shipping",
+        "title": "Vận Chuyển Quốc Tế",
+        "description": "Dịch vụ vận chuyển quốc tế của chúng tôi cung cấp phạm vi toàn cầu, tối ưu hóa chi phí và thời gian giao hàng cho khách hàng xuất/nhập khẩu. Chúng tôi xử lý mọi khía cạnh của logistics quốc tế, bao gồm thông quan và hồ sơ.",
+        "features": [
+          "Giải pháp vận chuyển toàn cầu toàn diện",
+          "Tối ưu hóa chi phí và thời gian giao hàng",
+          "Hỗ trợ thông quan",
+          "Chuẩn bị hồ sơ",
+          "Hỗ trợ tuân thủ quy định",
+          "Dịch vụ cá nhân hóa từ đầu đến cuối"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Sẵn Sàng Tối Ưu Hóa Logistics Của Bạn?",
+      "description": "Liên hệ ngay hôm nay để thảo luận về cách dịch vụ logistics của chúng tôi có thể giúp doanh nghiệp của bạn tiết kiệm chi phí và nâng cao hiệu quả hoạt động.",
+      "button": "Liên Hệ Ngay"
+    },
+    "requestQuote": "Yêu Cầu Báo Giá"
+  },
+  "reviews": {
+    "header": {
+      "title": "Đánh Giá Từ Khách Hàng",
+      "subtitle": "Xem những gì khách hàng nói về dịch vụ logistics của chúng tôi"
+    },
+    "testimonials": [
+      {
+        "content": "Chúng tôi rất hài lòng với dịch vụ vận chuyển quốc tế, với chi phí giảm 15-20% và giao hàng đúng hẹn, đảm bảo chuỗi cung ứng ổn định.",
+        "author": "Giám đốc",
+        "company": "Công ty XNK ABC",
+        "rating": 5
+      },
+      {
+        "content": "Dịch vụ vận tải biển đã giúp giảm thời gian vận chuyển từ 3 ngày xuống còn 1-2 ngày, cải thiện hiệu quả và linh hoạt trong hoạt động.",
+        "author": "Quản lý Vận hành",
+        "company": "Công ty Vận tải DEF",
+        "rating": 5
+      },
+      {
+        "content": "Dịch vụ vận tải hàng không đảm bảo giao hàng trong vòng 48 giờ, tối ưu hóa thủ tục hải quan, và tăng doanh thu 25% trong mùa cao điểm.",
+        "author": "Giám đốc Kinh doanh",
+        "company": "Công ty Thương mại GHI",
+        "rating": 5
+      },
+      {
+        "content": "Làm việc với Nguyễn Thị Thu Hiền đã thay đổi hoàn toàn quy trình logistics của chúng tôi. Sự chú ý đến chi tiết và chiến lược tiết kiệm chi phí của cô ấy rất quan trọng đối với sự phát triển của doanh nghiệp chúng tôi.",
+        "author": "Quản lý Logistics",
+        "company": "JKL Manufacturing",
+        "rating": 5
+      },
+      {
+        "content": "Dịch vụ kho bãi đã giúp chúng tôi tiết kiệm không gian đáng kể và cải thiện quản lý hàng tồn kho. Hiệu quả trong việc xử lý sản phẩm của đội ngũ thật xuất sắc.",
+        "author": "Giám đốc Chuỗi cung ứng",
+        "company": "Tập đoàn Bán lẻ MNO",
+        "rating": 4
+      },
+      {
+        "content": "Chuyên môn của cô ấy về quy định vận chuyển quốc tế đã giúp chúng tôi tránh được các vấn đề tuân thủ tiềm ẩn và đảm bảo thông quan suôn sẻ cho tất cả các lô hàng.",
+        "author": "Quản lý Nhập khẩu",
+        "company": "PQR International Trade",
+        "rating": 5
+      }
+    ],
+    "cta": {
+      "title": "Tham Gia Cùng Các Khách Hàng Hài Lòng",
+      "description": "Trải nghiệm sự khác biệt mà dịch vụ logistics của chúng tôi có thể mang lại cho doanh nghiệp của bạn. Liên hệ ngay hôm nay để được tư vấn.",
+      "contactButton": "Liên Hệ Ngay",
+      "exploreButton": "Khám Phá Dịch Vụ"
+    }
+  }
+}

@@ -16,11 +16,11 @@ const About = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
-            <img 
-              src="https://images.unsplash.com/photo-1565610222536-ef125c59da2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-              alt="Nguyễn Thị Thu Hiền" 
-              className="rounded-lg shadow-md w-full h-auto object-cover"
-            />
+    <img
+            src="/background.jpg"
+            alt="Modern Logistics Services"
+            className="rounded-lg shadow-lg w-full h-[400px] md:h-[480px] object-cover transform hover:scale-105 transition-all duration-300"
+          />
           </div>
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h2 className="text-3xl font-bold mb-4">About Nguyễn Thị Thu Hiền</h2>

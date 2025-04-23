@@ -1,9 +1,10 @@
-
 import { useState } from 'react';
 import Layout from '../components/layout/Layout';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -45,9 +46,9 @@ const Contact = () => {
       <section className="bg-logistics-600 text-white py-16">
         <div className="container-custom">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
+            <h1 className="text-4xl font-bold mb-4">{t('contact.header.title')}</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Get in touch to discuss how we can optimize your logistics operations
+              {t('contact.header.subtitle')}
             </p>
           </div>
         </div>
@@ -59,9 +60,9 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
+              <h2 className="text-3xl font-bold mb-6">{t('contact.getInTouch.title')}</h2>
               <p className="text-gray-600 mb-8">
-                Have questions about our logistics services? Contact us directly or fill out the form and we'll get back to you promptly.
+                {t('contact.getInTouch.description')}
               </p>
 
               <div className="space-y-6">
@@ -70,8 +71,8 @@ const Contact = () => {
                     <Phone className="text-logistics-500 w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg">Phone</h3>
-                    <p className="text-gray-600">0358 820 162</p>
+                    <h3 className="font-bold text-lg">{t('contact.getInTouch.info.phone.title')}</h3>
+                    <p className="text-gray-600">{t('contact.getInTouch.info.phone.value')}</p>
                   </div>
                 </div>
 
@@ -80,8 +81,8 @@ const Contact = () => {
                     <Mail className="text-logistics-500 w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg">Email</h3>
-                    <p className="text-gray-600">email@example.com</p>
+                    <h3 className="font-bold text-lg">{t('contact.getInTouch.info.email.title')}</h3>
+                    <p className="text-gray-600">{t('contact.getInTouch.info.email.value')}</p>
                   </div>
                 </div>
 
@@ -90,12 +91,11 @@ const Contact = () => {
                     <MapPin className="text-logistics-500 w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg">Office Address</h3>
-                    <p className="text-gray-600">
-                      43D6 Hồ Văn Huê, Phường 09, Phú Nhuận, Ho Chi Minh City
-                    </p>
+                    <h3 className="font-bold text-lg">{t('contact.getInTouch.info.address.title')}</h3>
+                    <p className="text-gray-600">{t('contact.getInTouch.info.address.value')}</p>
                   </div>
                 </div>
+
                 <div className="flex items-start">
                   <div className="bg-logistics-50 p-3 rounded-full mr-4">
                     <svg className="text-logistics-500 w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -103,8 +103,10 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg">TikTok</h3>
-                    <a href="https://www.tiktok.com/@rubylogistics" className="text-gray-600 hover:text-logistics-500">@rubylogistics</a>
+                    <h3 className="font-bold text-lg">{t('contact.getInTouch.info.tiktok.title')}</h3>
+                    <a href="https://www.tiktok.com/@rubylogistics" className="text-gray-600 hover:text-logistics-500">
+                      {t('contact.getInTouch.info.tiktok.handle')}
+                    </a>
                   </div>
                 </div>
 
@@ -115,35 +117,33 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg">Zalo</h3>
-                    <p className="text-gray-600">0358 820 162</p>
+                    <h3 className="font-bold text-lg">{t('contact.getInTouch.info.zalo.title')}</h3>
+                    <p className="text-gray-600">{t('contact.getInTouch.info.zalo.value')}</p>
                   </div>
                 </div>
-
               </div>
-
-
-
             </div>
 
             {/* Contact Form */}
             <div>
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
+                <h2 className="text-2xl font-bold mb-6">{t('contact.form.title')}</h2>
 
                 {submitSuccess && (
                   <div className="bg-green-50 text-green-700 p-4 rounded-md mb-6 flex items-center">
                     <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                     </svg>
-                    Your message has been sent successfully. We'll get back to you soon!
+                    {t('contact.form.success')}
                   </div>
                 )}
 
                 <form onSubmit={handleSubmit}>
                   <div className="space-y-4">
                     <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                      <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                        {t('contact.form.fields.name.label')}
+                      </label>
                       <input
                         type="text"
                         id="name"
@@ -151,13 +151,15 @@ const Contact = () => {
                         value={formData.name}
                         onChange={handleChange}
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-logistics-500 focus:border-logistics-500"
-                        placeholder="Your name"
+                        placeholder={t('contact.form.fields.name.placeholder')}
                         required
                       />
                     </div>
 
                     <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                      <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                        {t('contact.form.fields.email.label')}
+                      </label>
                       <input
                         type="email"
                         id="email"
@@ -165,13 +167,15 @@ const Contact = () => {
                         value={formData.email}
                         onChange={handleChange}
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-logistics-500 focus:border-logistics-500"
-                        placeholder="your.email@example.com"
+                        placeholder={t('contact.form.fields.email.placeholder')}
                         required
                       />
                     </div>
 
                     <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                      <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                        {t('contact.form.fields.phone.label')}
+                      </label>
                       <input
                         type="tel"
                         id="phone"
@@ -179,12 +183,14 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-logistics-500 focus:border-logistics-500"
-                        placeholder="Your phone number"
+                        placeholder={t('contact.form.fields.phone.placeholder')}
                       />
                     </div>
 
                     <div>
-                      <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                      <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                        {t('contact.form.fields.message.label')}
+                      </label>
                       <textarea
                         id="message"
                         name="message"
@@ -192,7 +198,7 @@ const Contact = () => {
                         onChange={handleChange}
                         rows={5}
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-logistics-500 focus:border-logistics-500"
-                        placeholder="How can we help you?"
+                        placeholder={t('contact.form.fields.message.placeholder')}
                         required
                       ></textarea>
                     </div>
@@ -210,7 +216,7 @@ const Contact = () => {
                       ) : (
                         <Send className="mr-2 h-4 w-4" />
                       )}
-                      {isSubmitting ? 'Sending...' : 'Send Message'}
+                      {isSubmitting ? t('contact.form.submit.sending') : t('contact.form.submit.send')}
                     </button>
                   </div>
                 </form>

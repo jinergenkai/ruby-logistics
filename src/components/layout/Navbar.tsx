@@ -1,19 +1,20 @@
-
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
   const navItems = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Services', path: '/services' },
-    { name: 'Reviews', path: '/reviews' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Contact', path: '/contact' },
+    { name: t('common.home'), path: '/' },
+    { name: t('common.about'), path: '/about' },
+    { name: t('common.services'), path: '/services' },
+    { name: t('common.reviews'), path: '/reviews' },
+    { name: t('common.blog'), path: '/blog' },
+    { name: t('common.contact'), path: '/contact' },
   ];
 
   const toggleMenu = () => {
@@ -30,7 +31,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-logistics-600 text-2xl font-bold font-poppins">HienLogistics</span>
+              <span className="text-logistics-600 text-2xl font-bold font-poppins">
+                {t('components.navbar.brandName')}
+              </span>
             </Link>
           </div>
 
@@ -46,7 +49,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Link to="/contact" className="btn-primary">
-              Get a Quote
+              {t('common.getQuote')}
             </Link>
           </div>
 
@@ -80,7 +83,7 @@ const Navbar = () => {
                 className="btn-primary text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Get a Quote
+                {t('common.getQuote')}
               </Link>
             </div>
           </div>

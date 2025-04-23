@@ -1,8 +1,10 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative text-white">
       <div
@@ -11,7 +13,6 @@ const Hero = () => {
           backgroundImage: 'url(/overlay.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          // filter: 'blur(4px)'
         }}
       ></div>
       <div className="absolute inset-0 bg-blue-700/60 z-10"></div>
@@ -19,19 +20,18 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              GO LOGISITCS WITH RUBY
+              {t('hero.title')}
             </h1>
             <p className="text-xl opacity-90 mb-6">
-              Expert logistics services with 3 years of experience in international freight shipping, helping customers optimize costs and enhance operational efficiency.
+              {t('hero.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/services" className="btn-primary bg-white text-logistics-600 hover:bg-gray-100">
-                Explore Services
+                {t('hero.exploreServices')}
               </Link>
-              <Link to="/contact" className="btn-secondary text-white border-white hover:bg-white/10">
-                Contact Us
+              <Link to="/contact" className="btn-secondary text-blue hover:text-white border-white hover:bg-white/10">
+                {t('hero.contactUs')}
               </Link>
-
             </div>
             <div className="space-y-6 mt-8">
               <div className="flex items-start">
@@ -41,8 +41,10 @@ const Hero = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg">TikTok</h3>
-                  <a href="https://www.tiktok.com/@rubylogistics" className="text-white hover:text-logistics-500">@rubylogistics</a>
+                  <h3 className="font-bold text-lg">{t('hero.social.tiktok.title')}</h3>
+                  <a href="https://www.tiktok.com/@rubylogistics" className="text-white hover:text-logistics-500">
+                    {t('hero.social.tiktok.handle')}
+                  </a>
                 </div>
               </div>
 
@@ -53,22 +55,17 @@ const Hero = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg">Zalo</h3>
-                  <p className="text-white">0358 820 162</p>
+                  <h3 className="font-bold text-lg">{t('hero.social.zalo.title')}</h3>
+                  <p className="text-white">{t('hero.social.zalo.phone')}</p>
                 </div>
               </div>
-
             </div>
           </div>
-          <div className="order-1 md:order-2 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            <img
-              src="/avatar.jpg"
-              alt="Modern Logistics Services"
-              className="rounded-lg shadow-lg w-full h-[400px] md:h-[480px] object-cover transform hover:scale-105 transition-all duration-300"
-            />
-          </div>
-
-
+          <img
+            src="/avatar.jpg"
+            alt="Modern Logistics Services"
+            className="rounded-lg shadow-lg w-full h-[400px] md:h-[480px] object-cover transform hover:scale-105 transition-all duration-300"
+          />
         </div>
       </div>
     </section>

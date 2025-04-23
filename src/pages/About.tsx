@@ -1,14 +1,17 @@
 import Layout from '../components/layout/Layout';
 import { CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+
+interface PhilosophyPoint {
+  title: string;
+  description: string;
+}
 
 const About = () => {
-  const experiences = [
-    "3 years of experience in international logistics",
-    "Sea freight specialist with expertise in cost optimization",
-    "Air freight coordination for time-sensitive deliveries",
-    "Supply chain management and problem solving",
-    "Client relationship management and custom solutions",
-  ];
+  const { t } = useTranslation();
+
+  const experiences = t('about.profile.experiences', { returnObjects: true }) as string[];
+  const philosophyPoints = t('about.philosophy.points', { returnObjects: true }) as PhilosophyPoint[];
 
   return (
     <Layout>
@@ -26,9 +29,9 @@ const About = () => {
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         <div className="container-custom relative z-20">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4">About Nguyễn Thị Thu Hiền</h1>
+            <h1 className="text-4xl font-bold mb-4">{t('about.header.title')}</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Dedicated logistics professional with expertise in sea freight, air freight, and cost optimization
+              {t('about.header.subtitle')}
             </p>
           </div>
         </div>
@@ -38,12 +41,12 @@ const About = () => {
       <section className="py-16">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Professional Profile</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('about.profile.title')}</h2>
             <p className="text-gray-600 mb-6">
-              With 3 years of experience in international logistics, I specialize in sea freight, air freight, and cost optimization solutions. My goal is to help customers save costs and enhance their operational efficiency through tailored logistics services.
+              {t('about.profile.description')}
             </p>
 
-            <h3 className="text-xl font-bold mb-3">Experience & Expertise</h3>
+            <h3 className="text-xl font-bold mb-3">{t('about.profile.experienceTitle')}</h3>
             <ul className="space-y-2 mb-6">
               {experiences.map((experience, index) => (
                 <li key={index} className="flex items-start">
@@ -54,7 +57,7 @@ const About = () => {
             </ul>
 
             <div className="mt-8">
-              <h3 className="text-xl font-bold mb-3">Connect With Me</h3>
+              <h3 className="text-xl font-bold mb-3">{t('about.profile.connectTitle')}</h3>
               <div className="flex space-x-4">
                 <a href="https://www.tiktok.com/@rubylogistics" className="text-logistics-500 hover:text-logistics-600 transition-custom">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -76,40 +79,23 @@ const About = () => {
       <section className="bg-gray-50 py-16">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Professional Philosophy</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center">{t('about.philosophy.title')}</h2>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <p className="text-gray-600 mb-6">
-                My approach to logistics is centered around creating value for clients through:
+                {t('about.philosophy.intro')}
               </p>
               <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span className="bg-logistics-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">1</span>
-                  <div>
-                    <h3 className="font-bold text-lg">Cost Optimization</h3>
-                    <p className="text-gray-600">Identifying the most cost-effective shipping solutions without compromising on quality or speed.</p>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <span className="bg-logistics-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">2</span>
-                  <div>
-                    <h3 className="font-bold text-lg">Operational Efficiency</h3>
-                    <p className="text-gray-600">Streamlining logistics processes to reduce delays and improve supply chain performance.</p>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <span className="bg-logistics-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">3</span>
-                  <div>
-                    <h3 className="font-bold text-lg">Customer-Centric Solutions</h3>
-                    <p className="text-gray-600">Tailoring logistics services to meet the specific needs and challenges of each client.</p>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <span className="bg-logistics-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">4</span>
-                  <div>
-                    <h3 className="font-bold text-lg">Continuous Improvement</h3>
-                    <p className="text-gray-600">Constantly seeking ways to improve service quality and adapt to changing market conditions.</p>
-                  </div>
-                </li>
+                {philosophyPoints.map((point, index) => (
+                  <li key={index} className="flex items-start">
+                    <span className="bg-logistics-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">
+                      {index + 1}
+                    </span>
+                    <div>
+                      <h3 className="font-bold text-lg">{point.title}</h3>
+                      <p className="text-gray-600">{point.description}</p>
+                    </div>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
