@@ -276,5 +276,74 @@
       "contactButton": "Contact Us",
       "exploreButton": "Explore Our Services"
     }
+  },
+  "blog": {
+    "header": {
+      "title": "Logistics Blog",
+      "description": "Latest insights, industry news, and expert guides on logistics and supply chain management"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "10 Ways to Optimize Your International Shipping Costs",
+        "excerpt": "Discover practical strategies to reduce your international shipping expenses without compromising on service quality or delivery times.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "April 15, 2025",
+        "readTime": "8 min read",
+        "category": "Cost Optimization"
+      },
+      {
+        "id": 2,
+        "title": "The Future of Logistics: Emerging Trends in 2025",
+        "excerpt": "Explore the latest technological advancements and industry shifts that are reshaping the logistics landscape this year and beyond.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "April 10, 2025",
+        "readTime": "10 min read",
+        "category": "Industry Trends"
+      },
+      {
+        "id": 3,
+        "title": "How to Choose Between Air and Sea Freight for Your Business",
+        "excerpt": "A comprehensive guide to help you decide whether air freight or sea freight is the better option for your specific shipping needs.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "April 5, 2025",
+        "readTime": "7 min read",
+        "category": "Shipping Guide"
+      },
+      {
+        "id": 4,
+        "title": "Understanding International Shipping Regulations: A Beginner's Guide",
+        "excerpt": "Navigate the complex world of international shipping regulations with this essential guide for importers and exporters.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "March 28, 2025",
+        "readTime": "9 min read",
+        "category": "Regulations"
+      },
+      {
+        "id": 5,
+        "title": "5 Ways to Improve Your Warehouse Efficiency",
+        "excerpt": "Practical strategies to optimize your warehouse operations, reduce costs, and enhance productivity in your logistics process.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "March 20, 2025",
+        "readTime": "6 min read",
+        "category": "Warehousing"
+      },
+      {
+        "id": 6,
+        "title": "Sustainable Logistics: Reducing Your Carbon Footprint",
+        "excerpt": "Learn how to implement environmentally friendly practices in your logistics operations without sacrificing efficiency or profitability.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "March 15, 2025",
+        "readTime": "8 min read",
+        "category": "Sustainability"
+      }
+    ],
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Stay updated with the latest logistics insights, industry news, and expert guides delivered directly to your inbox.",
+      "emailPlaceholder": "Your email address",
+      "subscribeButton": "Subscribe"
+    },
+    "readMore": "Read More"
   }
 }

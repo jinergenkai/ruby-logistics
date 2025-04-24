@@ -276,5 +276,74 @@
       "contactButton": "Liên Hệ Ngay",
       "exploreButton": "Khám Phá Dịch Vụ"
     }
+  },
+  "blog": {
+    "header": {
+      "title": "Blog Logistics",
+      "description": "Thông tin mới nhất, tin tức ngành và hướng dẫn chuyên môn về logistics và quản lý chuỗi cung ứng"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "10 Cách Tối Ưu Chi Phí Vận Chuyển Quốc Tế",
+        "excerpt": "Khám phá các chiến lược thực tế để giảm chi phí vận chuyển quốc tế mà không ảnh hưởng đến chất lượng dịch vụ hoặc thời gian giao hàng.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "15 Tháng 4, 2025",
+        "readTime": "8 phút đọc",
+        "category": "Tối Ưu Chi Phí"
+      },
+      {
+        "id": 2,
+        "title": "Tương Lai của Logistics: Xu Hướng Mới 2025",
+        "excerpt": "Khám phá những tiến bộ công nghệ mới nhất và những thay đổi trong ngành đang định hình lại bức tranh logistics năm nay và hơn thế nữa.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "10 Tháng 4, 2025",
+        "readTime": "10 phút đọc",
+        "category": "Xu Hướng Ngành"
+      },
+      {
+        "id": 3,
+        "title": "Cách Chọn Giữa Vận Chuyển Đường Biển và Hàng Không cho Doanh Nghiệp",
+        "excerpt": "Hướng dẫn toàn diện giúp bạn quyết định liệu vận chuyển đường hàng không hay đường biển là lựa chọn tốt hơn cho nhu cầu vận chuyển cụ thể của bạn.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "5 Tháng 4, 2025",
+        "readTime": "7 phút đọc",
+        "category": "Hướng Dẫn Vận Chuyển"
+      },
+      {
+        "id": 4,
+        "title": "Hiểu về Quy Định Vận Chuyển Quốc Tế: Hướng Dẫn cho Người Mới",
+        "excerpt": "Điều hướng trong thế giới phức tạp của các quy định vận chuyển quốc tế với hướng dẫn thiết yếu này cho người nhập và xuất khẩu.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "28 Tháng 3, 2025",
+        "readTime": "9 phút đọc",
+        "category": "Quy Định"
+      },
+      {
+        "id": 5,
+        "title": "5 Cách Cải Thiện Hiệu Quả Kho Bãi",
+        "excerpt": "Các chiến lược thực tế để tối ưu hóa hoạt động kho bãi, giảm chi phí và nâng cao năng suất trong quy trình logistics của bạn.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "20 Tháng 3, 2025",
+        "readTime": "6 phút đọc",
+        "category": "Kho Bãi"
+      },
+      {
+        "id": 6,
+        "title": "Logistics Bền Vững: Giảm Dấu Chân Carbon",
+        "excerpt": "Tìm hiểu cách thực hiện các phương pháp thân thiện với môi trường trong hoạt động logistics mà không ảnh hưởng đến hiệu quả hoặc lợi nhuận.",
+        "author": "Nguyễn Thị Thu Hiền",
+        "date": "15 Tháng 3, 2025",
+        "readTime": "8 phút đọc",
+        "category": "Phát Triển Bền Vững"
+      }
+    ],
+    "newsletter": {
+      "title": "Đăng Ký Nhận Bản Tin",
+      "description": "Cập nhật thông tin mới nhất về logistics, tin tức ngành và hướng dẫn chuyên môn được gửi trực tiếp đến hộp thư của bạn.",
+      "emailPlaceholder": "Địa chỉ email của bạn",
+      "subscribeButton": "Đăng Ký"
+    },
+    "readMore": "Xem Thêm"
   }
 }
